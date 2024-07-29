@@ -4,7 +4,7 @@ const path = require("path");
 require("dotenv").config();
 
 // Define the paths for the data folder
-const dataFolder = path.resolve(__dirname, "../data");
+const dataFolder = path.resolve(__dirname, "./data");
 
 // Ensure the data folder exists
 if (!fs.existsSync(dataFolder)) {
